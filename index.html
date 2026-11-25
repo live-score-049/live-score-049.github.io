@@ -1,1 +1,229 @@
-Live Score
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="Live football scores, match events, fixtures, results, stats, league tables, teams, and players in one convenient app.">
+    <title>Football Live Score: MatchLive</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: #f3f6fb;
+            color: #202b3c;
+            font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif
+        }
+
+        header {
+            padding: 52px 22px;
+            background: linear-gradient(125deg, #101b35, #1753a2, #087f9b);
+            color: white
+        }
+
+        .hero,
+        main {
+            max-width: 940px;
+            margin: auto
+        }
+
+        .tag {
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: 800;
+            color: #a9eaff
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 46px);
+            line-height: 1.15;
+            margin: 12px 0
+        }
+
+        header p {
+            max-width: 720px;
+            color: #e5efff
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 24px
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 650
+        }
+
+        main {
+            padding: 30px 20px 65px
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e2e9f2;
+            border-radius: 16px;
+            padding: clamp(20px, 4vw, 34px);
+            margin-bottom: 18px;
+            box-shadow: 0 7px 25px #1c35500a
+        }
+
+        h2,
+        h3 {
+            color: #142747;
+            line-height: 1.3
+        }
+
+        h2 {
+            font-size: 23px;
+            margin: 0 0 12px
+        }
+
+        h3 {
+            font-size: 17px;
+            margin: 22px 0 8px
+        }
+
+        p {
+            margin: 0 0 14px
+        }
+
+        ul {
+            padding-left: 22px
+        }
+
+        li {
+            margin: 5px 0
+        }
+
+        .muted {
+            color: #64748b;
+            font-size: 13px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+            gap: 13px
+        }
+
+        .feature {
+            padding: 17px;
+            border: 1px solid #e4ebf3;
+            border-radius: 13px;
+            background: #fbfdff
+        }
+
+        .feature b {
+            display: block;
+            color: #142747;
+            margin-bottom: 5px
+        }
+
+        .note {
+            background: #effaff;
+            border-left: 4px solid #22bfd4;
+            padding: 15px 17px;
+            border-radius: 0 10px 10px 0;
+            margin: 18px 0
+        }
+
+        a {
+            color: #1769e8
+        }
+
+        footer {
+            text-align: center;
+            background: #101b35;
+            color: #d2dced;
+            padding: 25px 15px;
+            font-size: 13px
+        }
+
+        footer a {
+            color: #9be8f5
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="tag">MATCHLIVE · FOOTBALL MADE SIMPLE</div>
+            <h1>Football Live Score: MatchLive</h1>
+            <p>Live football scores, match events, fixtures, results, stats, league tables, teams, and players in one
+                convenient app.</p>
+            <nav><a href="index.html">Home</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms
+                    of Use</a></nav>
+        </div>
+    </header>
+    <main>
+        <section class="card">
+            <div class="muted">LIVE SCORES · MATCH EVENTS · FIXTURES · STATS</div>
+            <h2>Stay connected to every match</h2>
+            <p><b>Football Live Score: MatchLive</b> brings live football scores, match events, fixtures, results,
+                statistics, league tables, teams, and player information together in one convenient app.</p>
+            <p>Follow the matches and competitions you care about, check today's schedule, and keep up with results
+                wherever you are. MatchLive makes football information easy to explore with a clean and simple
+                experience.</p>
+            <div class="grid">
+                <div class="feature"><b>⚡ Live scores & updates</b>Follow scores, goals, yellow and red cards,
+                    substitutions, match status, and available live events.</div>
+                <div class="feature"><b>📊 Detailed match stats</b>Explore available team and player statistics,
+                    lineups, performance, and recent form.</div>
+                <div class="feature"><b>🗓️ Fixtures & results</b>Browse today's matches, upcoming fixtures, schedules,
+                    and completed games.</div>
+                <div class="feature"><b>🏆 League tables</b>Check standings, team positions, rankings, and performance
+                    in supported competitions.</div>
+                <div class="feature"><b>👥 Teams & players</b>View team profiles, squad information, player details, and
+                    starting lineups.</div>
+                <div class="feature"><b>🌐 Global coverage</b>Follow supported domestic leagues, international
+                    tournaments, and regional competitions.</div>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Follow the action throughout the match</h2>
+            <p>MatchLive helps you keep track of important match moments, including goals, yellow and red cards, player
+                substitutions, and changes in match status. When you cannot watch a game, check the score and available
+                updates to stay informed.</p>
+            <h2>Explore more than the score</h2>
+            <p>Open match details to explore available statistics, team information, player performance, lineups, and
+                recent results. Browse fixtures and standings to follow a team's progress throughout the season.</p>
+        </section>
+        <section class="card">
+            <h2>Why choose MatchLive?</h2>
+            <ul>
+                <li>Fast access to live football scores and match information.</li>
+                <li>Today's matches, upcoming fixtures, and latest results.</li>
+                <li>Match statistics, team profiles, players, and lineups.</li>
+                <li>League tables and standings for supported competitions.</li>
+                <li>A straightforward interface for following football worldwide.</li>
+            </ul>
+            <div class="note"><b>Note:</b> Available leagues, competitions, statistics, and live updates may vary
+                depending on data-source coverage and service availability.</div>
+        </section>
+        <section class="card">
+            <h2>Disclaimer</h2>
+            <p>Football Live Score: MatchLive is an independently developed application. It uses authorized data and API
+                sources to provide supported football scores, match information, statistics, fixtures, results, and
+                standings.</p>
+            <p>MatchLive is not affiliated with, endorsed by, sponsored by, or officially connected with any football
+                club, league, federation, governing body, or sports organization unless explicitly stated. All
+                trademarks, team names, competition names, logos, and related intellectual property belong to their
+                respective owners.</p>
+            <h2>Contact</h2>
+            <p>Questions or feedback? Email <a href="mailto:demircimamo@gmail.com">demircimamo@gmail.com</a>.</p>
+        </section>
+    </main>
+    <footer>© 2026 Football Live Score: MatchLive. All rights reserved.<br>Contact: <a
+            href="mailto:demircimamo@gmail.com">demircimamo@gmail.com</a></footer>
+</body>
+
+</html>
